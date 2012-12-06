@@ -64,10 +64,10 @@ I'll try to post a tutorial to explain it in detail.
 Demo
 -----------
 
-There is a [demo include with this project.](/tree/master/demo)
+There is a [demo include with this project.](./SimpleCalendar/tree/master/demo)
 
 
 License
 -----------
 
-Under MIT-LICENSE (see [MIT-LICENSE.txt](/blob/master/MIT-LICENSE.txt))
+Under MIT-LICENSE (see [MIT-LICENSE.txt](./SimpleCalendar/blob/master/MIT-LICENSE.txt))
