@@ -1,0 +1,112 @@
+/**
+ * SimpleCalendar v0.1
+ *
+ * Copyright (c) 2012 Erwan Jestin
+ * Licensed under the MIT located in MIT-LICENSE.txt.
+ *
+ * Date: Tue Nov 26
+ *
+ */
+  /*********** HELPER STYLE ************/
+ .simplecal {
+ 	display:none;
+ 	visibility : hidden;
+ }
+ 
+ .simplecal_noborder
+ {
+ 	boder : 0 !important;
+ }
+ 
+  
+ /*********** TITLE STYLE ************/
+#simplecal_title {
+	background-color:#19ABEA;
+	height:40px;
+	width:80%;
+	margin:auto;
+}
+
+#simplecal_title_text {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	padding-top:3px;
+	font-size:26px;
+	color:white;
+}
+
+
+/*********** ARROWS STYLE ************/
+#simplecal_arrow_left {
+	margin-top:50px;
+	cursor:pointer;
+	float:left;
+}
+
+#simplecal_arrow_right {
+	margin-top:50px;
+	cursor:pointer;
+	float:right;
+}
+
+
+
+/*********** DAYS LINE STYLE ************/
+#simplecal_days {
+	margin:auto;
+}
+
+.simplecal_dayLine_day {
+	float:left;
+	margin:auto;
+}
+
+.simplecal_dayLine_day h2 {
+	font-size:22px;
+}
+
+.simplecal_today {
+	color:#19ABEA;
+}
+
+
+
+/*********** EVENT CONTAINER STYLE ************/
+#simplecal_event_list {
+	margin:auto;
+
+}
+
+
+
+
+/*********** EVENT STYLE ************/
+.simplecal_day_event_list {
+	float:left;
+	list-style-type: none;
+	margin:0;
+	padding:0 2px;
+}
+
+.simplecal_day_event_list:after {
+	clear: both;
+}
+
+.simplecal_day_event_list li {
+	cursor:pointer;
+	box-shadow: 1px 1px 4px #8C8C8C;
+	border:1px solid black;
+	height:45px;
+	overflow:hidden;
+}
+
+
+
+
+/*********** EVENT TWO COLUMNS STYLE ************/
+.simplecal_event_left {
+	float:left;
+	border-right:1px solid black;
+}
+.simplecal_event_right {
+	float:middle;
+}
