@@ -64,7 +64,7 @@ I'll try to post a tutorial to explain it in detail.
 Demo
 -----------
 
-There is a [demo include with this project.](./SimpleCalendar/tree/master/demo)
+There is a [demo include with this project.](./SimpleCalendar/tree/master/demos)
 
 
 License
